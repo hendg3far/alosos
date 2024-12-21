@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alosos</title>
+
+    <!--If Rtl Version-->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.rtl.min.css" />
+    <!--If Ltr Version-->
+    <!-- <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./assets/vendor/plugins/plugins.css" />
+    <link rel="stylesheet" href="./assets/vendor/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--If Rtl Version Add File After style.css-->
+    <link rel="stylesheet" href="./assets/css/rtl.css" />
+</head>
+
+<body>
+    <div class="preloader-content-wrapper">
+        <div class="progress indeterminate"></div>
+    </div>
+
+    <div class="page-wrapper overflow-hidden">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand m-0 p-0" href="./index.html">
+                    <img width="155" height="90" class="object-fit-contain" src="./assets/media/logo.webp" alt="Alosos"
+                        loading="lazy" />
+                </a>
+
+                <div class="d-lg-none d-flex column-gap-2" role="search">
+                    <a class="btn-hover d-flex align-items-center" href="#">
+                        <span class="icon icon-dark icon-md rounded-circle">
+                            <svg width="11" height="14" viewBox="0 0 11 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.125 12.745C1.125 10.3287 3.08376 8.37 5.5 8.37C7.91625 8.37 9.875 10.3287 9.875 12.745M8 3.995C8 5.37571 6.88069 6.495 5.5 6.495C4.11929 6.495 3 5.37571 3 3.995C3 2.61428 4.11929 1.495 5.5 1.495C6.88069 1.495 8 2.61428 8 3.995Z"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                    <a class="btn-hover d-inline-block" href="#"><img width="40" height="40"
+                            class="rounded-circle object-fit-cover" src="./assets/media/--lang/ar.svg" alt="ar flag"
+                            loading="lazy" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg width="30" height="10" viewBox="0 0 38 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="38" height="1" fill="currentColor" />
+                            <rect y="7" width="38" height="1" fill="currentColor" />
+                            <rect y="14" width="38" height="1" fill="currentColor" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto column-gap-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./about.html">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">خدماتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./packages.html">باقات الاستقدام</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faq.html">الأسئلة الشائعة </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">اتصل بنا</a>
+                        </li>
+                    </ul>
+                    <div class="d-lg-flex align-items-center d-none column-gap-3">
+                        <a class="btn btn-sm btn-white-color rounded-pill btn-hover d-flex align-items-center"
+                            href="./sign-in.html">
+                            <span class="px-3">تسجيل الدخول</span>
+                            <span class="icon icon-dark icon-sm rounded-circle">
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.125 12.745C1.125 10.3287 3.08376 8.37 5.5 8.37C7.91625 8.37 9.875 10.3287 9.875 12.745M8 3.995C8 5.37571 6.88069 6.495 5.5 6.495C4.11929 6.495 3 5.37571 3 3.995C3 2.61428 4.11929 1.495 5.5 1.495C6.88069 1.495 8 2.61428 8 3.995Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                        <a class="btn-hover d-inline-block" href="#"><img width="40" height="40"
+                                class="rounded-circle object-fit-cover" src="./assets/media/--lang/ar.svg" alt="ar flag"
+                                loading="lazy" /></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--End Navbar-->
+
+        <div class="page-head bg-size-cover bg-position-center position-relative"
+            style="background-image: url('./assets/media/--hero/1.webp');">
+            <div class="path-layer position-absolute end-0 w-100" style="bottom: -5px;">
+                <img class="w-100" src="./assets/media/--bg/path.svg" alt="layer" loading="lazy">
+            </div>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="h1 mb-sm" data-aos="fade-down" data-aos-duration="1500">التسجيل</h2>
+                    <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-duration="1500">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="./index.html">الرئيسية</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">التسجيل</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-lg">
+            <div class="container">
+                <div class="row m-0">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                            <p class="text-end w-100 mb-sm">هل لديك حساب؟
+                                <a href="./sign-in.html" class="gray-color">تسجيل الدخول!
+                                </a>
+                            </p>
+
+                            <div class="w-100">
+                                <h4 class="fw-bd text-capitalize mb-2">قم بالإشتراك فى الأسس للإستقدام </h4>
+                                <p class="text-brown fw-light fs-rg mb-rg">مرحبا بك! اشترك بالبريد الإلكتروني الخاص بك
+                                </p>
+
+                                <form class="mb-25">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="mb-4">
+                                                <label class="mb-2">الأسم الأول</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/Profile.svg" alt="user"></span>
+                                                    <input type="text"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="الأسم الأول">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="mb-4">
+                                                <label class="mb-2">الأسم الأخير</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/Profile.svg" alt="user"></span>
+                                                    <input type="text"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="الأسم الأخير">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-4">
+                                                <label class="mb-2">الرقم القومى</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/id-card-user.svg"
+                                                            alt="user"></span>
+                                                    <input type="password"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="الرقم القومى">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-4">
+                                                <label class="mb-2">رقم التليفون </label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/Call.svg" alt="call"></span>
+                                                    <input type="text"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="رقم التليفون">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-4">
+                                                <label class="mb-2">البريد الإلكترونى</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/Message.svg" alt="user"></span>
+                                                    <input type="email"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="الإيميل الإلكترونى">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-4">
+                                                <label class="mb-2">كلمة المرور</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/Lock.svg" alt="user"></span>
+                                                    <input type="password"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="كلمة المرور">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-4">
+                                                <label class="mb-2">تأكيد كلمة المرور</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text bg-light-color border-0"><img
+                                                            src="./assets/media/--icon/Lock.svg" alt="user"></span>
+                                                    <input type="password"
+                                                        class="form-control form-control-lg bg-light-color border-0 fs-6"
+                                                        placeholder="تأكيد كلمة المرور">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center mb-rg">
+                                        <div class="form-check">
+                                            <input class="form-check-input me-2" type="checkbox" checked="">
+                                            <label class="form-check-label">
+                                                لقد قرأت ووافقت على <a href="#" class="tx-primary-color">سياسة
+                                                    الخصوصية</a>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-rg">
+                                        <button type="submit"
+                                            class="btn btn-md  btn-hover btn-primary-color  border-0 w-100"
+                                            style="min-width: 177px;">
+                                            <span class="me-2">تسجيل الأشتراك </span>
+                                        </button>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <p class="tx-gray-light-color fw-li mb-3">أو</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <button class="btn btn-border btn-circle" type="button">
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg" class="css-1dcqfwl"
+                                                        role="img" version="1.1">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M22.5 4.782v14.452c0 .345-.28.625-.625.625h-20a.625.625 0 0 1-.625-.625V4.755c0-.344.28-.625.625-.625h20a.622.622 0 0 1 .595.434.624.624 0 0 1 .03.218Zm-1.25 13.827H2.5V5.979l7.835 5.673a2.62 2.62 0 0 0 3.08 0l7.835-5.673v12.63ZM11.07 10.64 3.803 5.38h16.142l-7.265 5.26a1.375 1.375 0 0 1-1.612 0Z"
+                                                            fill="#121214"></path>
+                                                    </svg>
+                                                </button>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <button class="btn btn-border btn-circle" type="button">
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg" class="css-1dcqfwl"
+                                                        role="img" version="1.1">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M21.6 12.227c0-.709-.064-1.39-.182-2.045H12v3.868h5.382a4.6 4.6 0 0 1-1.996 3.018v2.51h3.232c1.891-1.742 2.982-4.305 2.982-7.35Z"
+                                                            fill="#4285F4"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12 22c2.7 0 4.964-.895 6.618-2.423l-3.232-2.509c-.895.6-2.04.955-3.386.955-2.605 0-4.81-1.76-5.595-4.123H3.064v2.59A9.996 9.996 0 0 0 12 22Z"
+                                                            fill="#34A853"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M6.405 13.9c-.2-.6-.314-1.24-.314-1.9 0-.66.114-1.3.314-1.9V7.51H3.064A9.996 9.996 0 0 0 2 12c0 1.614.386 3.14 1.064 4.49l3.34-2.59Z"
+                                                            fill="#FBBC05"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M11.996 5.977c1.469 0 2.787.505 3.823 1.496l2.868-2.868C16.955 2.99 14.692 2 11.997 2 8.086 2 4.705 4.24 3.06 7.51l3.341 2.59c.786-2.364 2.99-4.123 5.595-4.123Z"
+                                                            fill="#EA4335"></path>
+                                                    </svg>
+                                                </button>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <button class="btn btn-border btn-circle" type="button">
+                                                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg" class="css-1dcqfwl"
+                                                        role="img" version="1.1">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M22.001 12c0-5.523-4.477-10-10-10C6.477 2 2 6.477 2 12c0 4.992 3.657 9.13 8.438 9.88V14.89h-2.54v-2.89h2.54V9.796c0-2.506 1.493-3.89 3.777-3.89 1.095 0 2.239.195 2.239.195v2.46h-1.261c-1.242 0-1.63.772-1.63 1.563V12h2.774l-.444 2.891h-2.33v6.988c4.781-.75 8.438-4.887 8.438-9.879Z"
+                                                            fill="#1877F2"></path>
+                                                    </svg>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container overflow-x-hidden">
+            <div class="py-rg bg-light-color rounded-md position-relative px-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-start text-center" data-aos="fade-left" data-aos-duration="1500">
+                        <h2 class="mb-sm">التطبيق متاح الآن على اب ستور وجوجل بلاي</h2>
+                        <p class="fs-5 text-dark-light-color mb-lg-0 mb-rg">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى
+                            المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في
+                            الصفحة التي يقرأه</p>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                        <div
+                            class="d-flex column-gap-4 align-items-center justify-content-lg-end justify-content-center">
+                            <a href="#"><img class="w-100" src="./assets/media/--app/app-store.svg" alt="app-store"
+                                    loading="lazy"></a>
+                            <a href="#"><img class="w-100" src="./assets/media/--app/google-play.svg" alt="google-play"
+                                    loading="lazy"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End-->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mb-md-0 mb-sm text-md-start text-center"><img src="./assets/media/logo.webp"
+                                alt="Alosos" loading="lazy"></div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="text-lg-end">
+                            <div
+                                class="socials-list d-flex justify-content-md-end justify-content-center column-gap-2 mb-4">
+                                <a href="#">
+                                    <svg width="8" height="17" viewBox="0 0 8 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.39062 8.68311H5.20312V16.6987H1.89062V8.68311H0.3125V5.87061H1.89062V4.04248C1.89062 4.01123 1.88802 3.97217 1.88281 3.92529C1.8776 3.87842 1.875 3.83415 1.875 3.79248C1.875 3.3654 1.95833 2.96436 2.125 2.58936C2.29167 2.21436 2.51562 1.88623 2.79688 1.60498C3.07812 1.32373 3.40625 1.09977 3.78125 0.933105C4.15625 0.766438 4.55729 0.683105 4.98438 0.683105C5.02604 0.683105 5.07031 0.685709 5.11719 0.690918C5.16406 0.696127 5.20833 0.69873 5.25 0.69873H5.23438L7.6875 0.714355V3.44873H5.90625C5.90625 3.44873 5.90365 3.44873 5.89844 3.44873C5.89323 3.44873 5.88542 3.44873 5.875 3.44873C5.6875 3.44873 5.52865 3.51383 5.39844 3.64404C5.26823 3.77425 5.20312 3.93311 5.20312 4.12061C5.20312 4.13102 5.20312 4.14665 5.20312 4.16748C5.20312 4.18831 5.20312 4.20394 5.20312 4.21436V5.87061H7.6875L7.39062 8.68311Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.9023 0.60498H12.9707L8.45313 5.76709L13.7676 12.7925H9.60742L6.34668 8.53271L2.62012 12.7925H0.548828L5.37988 7.27002L0.285156 0.60498H4.55078L7.49512 4.49853L10.9023 0.60498ZM10.1758 11.5562H11.3213L3.92676 1.77686H2.69629L10.1758 11.5562Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.0938 0.69873H1.90625C1.375 0.69873 0.924479 0.883626 0.554688 1.25342C0.184896 1.62321 0 2.07373 0 2.60498V14.7925C0 15.3237 0.184896 15.7743 0.554688 16.144C0.924479 16.5138 1.375 16.6987 1.90625 16.6987H14.0938C14.625 16.6987 15.0755 16.5138 15.4453 16.144C15.8151 15.7743 16 15.3237 16 14.7925V2.60498C16 2.07373 15.8151 1.62321 15.4453 1.25342C15.0755 0.883626 14.625 0.69873 14.0938 0.69873ZM4.95312 6.79248V14.0425H2.67188V6.79248H4.95312ZM2.67188 4.68311C2.68229 4.42269 2.78646 4.20133 2.98438 4.01904C3.18229 3.83675 3.41667 3.74561 3.6875 3.74561C3.70833 3.74561 3.72917 3.74561 3.75 3.74561C3.77083 3.74561 3.79167 3.74561 3.8125 3.74561C3.83333 3.74561 3.85156 3.74561 3.86719 3.74561C3.88281 3.74561 3.90104 3.74561 3.92188 3.74561C4.19271 3.74561 4.42708 3.83675 4.625 4.01904C4.82292 4.20133 4.93229 4.42269 4.95312 4.68311C4.94271 4.95394 4.83854 5.18571 4.64062 5.37842C4.44271 5.57113 4.20833 5.66748 3.9375 5.66748C3.91667 5.66748 3.89583 5.66488 3.875 5.65967C3.85417 5.65446 3.83333 5.65186 3.8125 5.65186C3.79167 5.65186 3.77083 5.65186 3.75 5.65186C3.72917 5.65186 3.71354 5.65186 3.70312 5.65186C3.42188 5.65186 3.18229 5.55811 2.98438 5.37061C2.78646 5.18311 2.68229 4.95394 2.67188 4.68311ZM13.3281 14.0269H11.0469V10.23C11.0469 10.1987 11.0495 10.1701 11.0547 10.144C11.0599 10.118 11.0625 10.0894 11.0625 10.0581C11.0625 9.68311 10.9323 9.36279 10.6719 9.09717C10.4115 8.83154 10.0938 8.69352 9.71875 8.68311H9.6875C9.22917 8.68311 8.89844 8.84456 8.69531 9.16748C8.49219 9.4904 8.39062 9.84456 8.39062 10.23V14.0269H6.09375V6.79248H8.39062V7.77686C8.65104 7.47477 8.96615 7.23519 9.33594 7.05811C9.70573 6.88102 10.1042 6.79248 10.5312 6.79248C10.5417 6.79248 10.5521 6.79248 10.5625 6.79248C10.5729 6.79248 10.5885 6.79248 10.6094 6.79248H10.5938C11.3542 6.79248 12.0026 7.0555 12.5391 7.58154C13.0755 8.10758 13.3438 8.89665 13.3438 9.94873L13.3281 14.0269Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 4.02686C16 3.99561 16 3.96175 16 3.92529C16 3.88883 16 3.84977 16 3.80811C16 3.29769 15.9401 2.8029 15.8203 2.32373C15.7005 1.84456 15.5312 1.39144 15.3125 0.964355L15.3281 0.995605C15.1719 0.808105 14.9896 0.651855 14.7812 0.526855C14.5729 0.401855 14.3438 0.313313 14.0938 0.26123H14.0781C13.6927 0.22998 13.2969 0.19873 12.8906 0.16748C12.474 0.13623 12.0495 0.110188 11.6172 0.0893555C11.1849 0.0685225 10.7448 0.0528975 10.2969 0.0424805C9.84896 0.0320635 9.39583 0.0268555 8.9375 0.0268555C8.77083 0.0268555 8.60677 0.02946 8.44531 0.034668C8.28385 0.039876 8.11979 0.0424805 7.95312 0.0424805H8C7.85417 0.0320635 7.69792 0.0268555 7.53125 0.0268555C7.36458 0.0268555 7.19271 0.0268555 7.01562 0.0268555C6.56771 0.0268555 6.125 0.0320635 5.6875 0.0424805C5.23958 0.0528975 4.79427 0.0685225 4.35156 0.0893555C3.90885 0.110188 3.46875 0.13623 3.03125 0.16748C2.59375 0.19873 2.15625 0.235188 1.71875 0.276855L1.9375 0.26123C1.72917 0.302897 1.53646 0.370605 1.35938 0.464355C1.18229 0.558105 1.02083 0.672688 0.875 0.808105C0.625 1.12061 0.429688 1.47738 0.289062 1.87842C0.148438 2.27946 0.078125 2.69873 0.078125 3.13623C0.078125 3.16748 0.078125 3.20133 0.078125 3.23779C0.078125 3.27425 0.078125 3.30811 0.078125 3.33936V3.32373C0.0572917 3.6779 0.0390625 4.05811 0.0234375 4.46436C0.0078125 4.87061 0 5.28206 0 5.69873C0 6.1154 0.0078125 6.53206 0.0234375 6.94873C0.0390625 7.3654 0.0572917 7.77686 0.078125 8.18311V8.07373C0.0885417 8.34456 0.114583 8.60498 0.15625 8.85498C0.197917 9.10498 0.25 9.34977 0.3125 9.58936L0.296875 9.54248C0.338542 9.7404 0.403646 9.92269 0.492188 10.0894C0.580729 10.256 0.6875 10.4071 0.8125 10.5425C0.958333 10.6883 1.1224 10.8107 1.30469 10.9097C1.48698 11.0086 1.68229 11.0737 1.89062 11.105C2.49479 11.1883 3.14062 11.2508 3.82812 11.2925C4.51562 11.3341 5.21354 11.355 5.92188 11.355C6.04688 11.355 6.16927 11.355 6.28906 11.355C6.40885 11.355 6.53125 11.355 6.65625 11.355H6.625C7.26042 11.3654 7.88021 11.3706 8.48438 11.3706C9.08854 11.3706 9.69271 11.3628 10.2969 11.3472C10.901 11.3315 11.5104 11.3081 12.125 11.2769C12.7396 11.2456 13.375 11.2039 14.0312 11.1519C14.25 11.1102 14.4531 11.0399 14.6406 10.9409C14.8281 10.842 14.9948 10.7196 15.1406 10.5737C15.2448 10.48 15.3333 10.3706 15.4062 10.2456C15.4792 10.1206 15.5365 9.9904 15.5781 9.85498L15.5938 9.83936C15.7083 9.48519 15.7995 9.10498 15.8672 8.69873C15.9349 8.29248 15.9688 7.87581 15.9688 7.44873C15.9688 7.4279 15.9688 7.40967 15.9688 7.39404C15.9688 7.37842 15.9688 7.3654 15.9688 7.35498C15.9792 7.25081 15.9844 7.03727 15.9844 6.71436C15.9844 6.40186 15.987 6.06331 15.9922 5.69873C15.9974 5.33415 16 4.9904 16 4.66748C16 4.34456 16 4.13102 16 4.02686ZM6.35938 7.79248V3.26123L10.6562 5.52686C10.3542 5.70394 10.0312 5.88102 9.6875 6.05811C9.34375 6.23519 8.98698 6.41748 8.61719 6.60498C8.2474 6.79248 7.875 6.98519 7.5 7.18311C7.11458 7.38102 6.73438 7.58415 6.35938 7.79248Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.03125 0.69873H11.9688C12.5208 0.69873 13.0417 0.802897 13.5312 1.01123C14.0208 1.22998 14.4479 1.52165 14.8125 1.88623C15.1771 2.25081 15.4688 2.6779 15.6875 3.16748C15.8958 3.65706 16 4.1779 16 4.72998V12.6675C16 13.2196 15.8958 13.7404 15.6875 14.23C15.4688 14.7196 15.1771 15.1466 14.8125 15.5112C14.4479 15.8758 14.0208 16.1675 13.5312 16.3862C13.0417 16.5946 12.5208 16.6987 11.9688 16.6987H4.03125C3.47917 16.6987 2.95833 16.5946 2.46875 16.3862C1.97917 16.1675 1.55208 15.8758 1.1875 15.5112C0.822917 15.1466 0.53125 14.7196 0.3125 14.23C0.104167 13.7404 0 13.2196 0 12.6675V4.72998C0 4.1779 0.104167 3.65706 0.3125 3.16748C0.53125 2.6779 0.822917 2.25081 1.1875 1.88623C1.55208 1.52165 1.97917 1.22998 2.46875 1.01123C2.95833 0.802897 3.47917 0.69873 4.03125 0.69873ZM3.73438 2.01123C3.05729 2.02165 2.48438 2.26383 2.01562 2.73779C1.54688 3.21175 1.3125 3.78727 1.3125 4.46436V12.9331C1.3125 13.6102 1.55208 14.1883 2.03125 14.6675C2.51042 15.1466 3.08854 15.3862 3.76562 15.3862H12.2344C12.9115 15.3862 13.4896 15.1466 13.9688 14.6675C14.4479 14.1883 14.6875 13.6102 14.6875 12.9331V4.46436C14.6875 3.78727 14.4479 3.20915 13.9688 2.72998C13.4896 2.25081 12.9115 2.01123 12.2344 2.01123H3.76562C3.75521 2.01123 3.7474 2.01123 3.74219 2.01123C3.73698 2.01123 3.73438 2.01123 3.73438 2.01123ZM12.5469 3.12061C12.8385 3.12061 13.0859 3.22217 13.2891 3.42529C13.4922 3.62842 13.5938 3.87061 13.5938 4.15186C13.5938 4.62061 13.3802 4.94352 12.9531 5.12061C12.526 5.29769 12.1458 5.22477 11.8125 4.90186C11.4896 4.56852 11.4167 4.18831 11.5938 3.76123C11.7708 3.33415 12.0885 3.12061 12.5469 3.12061ZM8 4.29248C8.60417 4.29248 9.17708 4.40706 9.71875 4.63623C10.25 4.8654 10.7161 5.1805 11.1172 5.58154C11.5182 5.98258 11.8333 6.44873 12.0625 6.97998C12.2917 7.52165 12.4062 8.09456 12.4062 8.69873C12.4062 9.6779 12.1458 10.5216 11.625 11.23C11.0938 11.9383 10.4453 12.4513 9.67969 12.769C8.91406 13.0868 8.09896 13.1779 7.23438 13.0425C6.35938 12.9175 5.57292 12.506 4.875 11.8081C4.1875 11.1206 3.77604 10.3394 3.64062 9.46436C3.51562 8.59977 3.61198 7.78206 3.92969 7.01123C4.2474 6.2404 4.76042 5.59456 5.46875 5.07373C6.17708 4.5529 7.02083 4.29248 8 4.29248ZM7.98438 5.71436C7.31771 5.71436 6.74479 5.89144 6.26562 6.24561C5.78646 6.59977 5.4401 7.03727 5.22656 7.55811C5.01302 8.07894 4.94792 8.63623 5.03125 9.22998C5.125 9.81331 5.40625 10.3394 5.875 10.8081C6.34375 11.2873 6.875 11.5685 7.46875 11.6519C8.05208 11.7352 8.60417 11.6701 9.125 11.4565C9.64583 11.243 10.0833 10.8966 10.4375 10.4175C10.7917 9.93831 10.9688 9.3654 10.9688 8.69873C10.9688 7.87581 10.6771 7.17269 10.0938 6.58936C9.51042 6.00602 8.80729 5.71436 7.98438 5.71436Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <ul class="nav justify-content-md-end justify-content-center column-gap-4">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">الرئيسية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">من نحن</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">خدماتنا</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">باقات الإستخدام</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">تواصل معنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyrights py-sm">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="mb-lg-0 text-sm-start text-center text-white-light-color">© 2024، الأسس للإستقدام.
+                                جميع الحقوق محفوظة.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex justify-content-sm-end justify-content-center column-gap-4">
+                                <a class="text-decoration-underline text-white-light-color" href="#">سياسة الخصوصية</a>
+                                <a class="text-decoration-underline text-white-light-color" href="#">الشروط والأحكام</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--End-->
+
+    </div>
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/vendor/aos/aos.js" defer></script>
+    <script src="./assets/vendor/OwlCarousel2-2.3.4/owl.carousel.min.js" defer></script>
+    <script src="./assets/vendor/countUp.min.js" defer></script>
+    <script src="./assets/vendor/fancybox/jquery.fancybox.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"
+        defer></script>
+    <script src="./assets/vendor/slick/slick.min.js" defer></script>
+    <script src="./assets/vendor/jquery-steps/jquery.steps.min.js" defer></script>
+    <script src="./assets/vendor/validate/jquery.validate.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js" defer></script>
+    <!--If Ltr Version-->
+    <!-- <script src="./assets/js/scripts.js" defer></script> -->
+    <!--If Rtl Version-->
+    <script src="./assets/js/scripts.rtl.js" defer></script>
+</body>
+
+</html>
